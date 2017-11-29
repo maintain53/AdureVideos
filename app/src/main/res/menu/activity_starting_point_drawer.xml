@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_channels"
+            android:icon="@drawable/ic_video_library_white_24px"
+            android:title="Channels" />
+
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_subscriptions_white_24px"
+            android:title="Subscription" />
+
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_vertical_align_bottom_white_24px"
+            android:title="Downloads" />
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/nav_abt"
+            android:icon="@drawable/ic_account_circle_white_24px"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact_mail_white_24px"
+            android:title="Contact Us" />
+
+
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_exit_to_app_white_24px"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
